@@ -54,9 +54,10 @@ Sonora Software Developers Group
 
 - function types
 
-	Func<int, int, Tuple<int, int>> // C#
-	int -> int -> int * int // F#
-	(Int, Int) => (Int, Int) // scala
+
+		Func<int, int, Tuple<int, int>> // C#
+		int -> int -> int * int // F#
+		(Int, Int) => (Int, Int) // scala
 
 - a little bit of generics
 
