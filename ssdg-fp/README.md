@@ -61,6 +61,8 @@ Sonora Software Developers Group
 
 - a little bit of generics
 
+- case classes (scala) and discriminated unions (F#)
+
 
 ## do not cover -- so we don't lose people
 
