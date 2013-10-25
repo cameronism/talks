@@ -61,7 +61,10 @@ Sonora Software Developers Group
 
 - a little bit of generics
 
-- case classes (scala) and discriminated unions (F#)
+- terse data structures
+  + case classes (scala) 
+  + discriminated unions and record types (F#)
+  + anonymous types (C#)
 
 
 ## do not cover -- so we don't lose people
