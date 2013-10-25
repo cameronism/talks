@@ -6,7 +6,7 @@ Sonora Software Developers Group
 
 
 - mindset -- not necessarily language based
-  + referential transparency (itempotent -ish)
+  + referential transparency (idempotent -ish)
   + higher order functions
   + purity
   + recursion
@@ -18,6 +18,14 @@ Sonora Software Developers Group
  
 
 - immutability
+  + benefits of
+    * lack of side effects 
+      . liskov substition
+      . easier to reason about
+    * parallelism 
+    * simplified or no locking
+    * no need for protective copies
+    * structural sharing
 - pattern matching
   + polymorphic types
     * case classes Scala
@@ -30,6 +38,34 @@ Sonora Software Developers Group
 - destructuring
   + tuples
 
+
+## code examples
+
+- option types
+
+- number parsing
+  https://gist.github.com/tifletcher/7113132
+
+- simple examples of immutability
+  + local values (sorry c#)
+  + class members
+
+- tuples / unpacking (sorry c#)
+
+- function types
+
+	Func<int, int, Tuple<int, int>> // C#
+	int -> int -> int * int // F#
+	(Int, Int) => (Int, Int) // scala
+
+- a little bit of generics
+
+
+## do not cover -- so we don't lose people
+
+- partial application
+
+- heavy / full generics discussion
 
 ```csharp
 public static void Increment(uint objectId, CountType type, Period period, DateTime previous, ushort? interactionId = null)
